@@ -10,7 +10,8 @@ body {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 200px;
+ 
 }
 
 .logo {
@@ -37,5 +38,57 @@ a {
     color: #e5e7eb;
     font-size: 12px;
     font-weight: 700;
+    flex-shrink: 0;
+    flex-wrap: 0;
+    text-wrap: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 80px;
+    padding: 80px 200px;
+}
+
+.left-hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 52px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    width: 700px;
+    height: auto;
+    background-color: #e5e7eb;
+}
+
+.primary-button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f9faf8;
 
 }
